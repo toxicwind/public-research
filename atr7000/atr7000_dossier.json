@@ -1,0 +1,137 @@
+{
+  "document": {
+    "filename": "ATR7000-Spec-Sheet.pdf",
+    "sha256": "8481224e8b2324a9d2279603c97de11ca334f438382180422e55767e51e8bfa8",
+    "md5": "81f63216fde7fd16667b63d909e0e81a",
+    "size_bytes": 134932,
+    "pages": 4,
+    "creation_date": "2019-02-20 11:16:17 CST",
+    "modification_date": "2019-02-20 11:17:07 CST",
+    "creator": "Adobe InDesign CC 2015 (Macintosh)",
+    "producer": "Adobe PDF Library 15.0",
+    "encrypted": "RC4 (print:yes, copy:yes, change:no, addNotes:no)",
+    "pdf_version": "1.6",
+    "forensics": {
+      "javascript": false,
+      "embedded_files": false,
+      "launch_actions": false,
+      "uri_actions": false,
+      "total_streams": 36,
+      "image_streams": 2,
+      "metadata_streams": 4,
+      "malware_indicators": "NONE",
+      "assessment": "Standard commercial spec sheet. No covert payloads. Clean."
+    }
+  },
+  "device_profile": {
+    "model": "Zebra ATR7000 RTLS Reader",
+    "part_number": "SS-ATR7000",
+    "dimensions_mm": {
+      "diameter": 482.6,
+      "height": 161
+    },
+    "weight_kg": 5.03,
+    "frequency_mhz": {
+      "us_canada": "902-928",
+      "emea_india": "865-868"
+    },
+    "antenna": "Steerable phased-array, digital beam-forming",
+    "beam_scanning": {
+      "azimuth": "0-360\u00b0",
+      "elevation": "0-60\u00b0"
+    },
+    "max_sensitivity_dbm": -88,
+    "location_accuracy_m": {
+      "r50": 0.6,
+      "r95": 1.2
+    },
+    "power_sources": [
+      "PoE+ (802.3at)",
+      "+24VDC 3.25A"
+    ],
+    "max_power_w": 24,
+    "idle_power_w": 4,
+    "operating_system": "Linux",
+    "management_protocols": [
+      "LLRP v1.0.1",
+      "RM 1.01 (XML over HTTP/HTTPS, SNMP binding)",
+      "RDMP (ISO 24791-3)",
+      "SNMP",
+      "SSH/SCP/SFTP",
+      "HTTP/HTTPS (Apache)",
+      "DHCP, NTP, FTP/FTPS (removed in 3.30.18)"
+    ],
+    "security": {
+      "tls_version": "1.2",
+      "fips_level": "140-2 Level 1",
+      "default_password_mandate": "3.10.30+ forces password change on first login",
+      "brute_force_protection": "Added in 3.30.18 for IoT Connector REST interface",
+      "bootloader_access": "Disabled by default in 3.30.18"
+    },
+    "data_interfaces": {
+      "claas_kafka": "Streams tag ID + location estimates via KAFKA",
+      "iot_connector": "MQTT/HTTPS/Websocket endpoints for cloud streaming",
+      "llrp": "TCP/5084, XML-based RFID middleware"
+    }
+  },
+  "threat_surface": {
+    "cve_2024_6387": {
+      "description": "OpenSSH regreSSHion \u2014 signal handler race condition enabling unauthenticated remote code execution",
+      "affected_firmware": "< 3.30.18",
+      "patched_in": "3.30.18 (August 2025)",
+      "cvss": "9.8 (Critical)",
+      "exploitability": "Network-accessible SSH on pre-patch devices = trivial RCE"
+    },
+    "llrp_exposure": {
+      "description": "EPCglobal LLRP v1.0.1 has no authentication in base spec. Reader reconfiguration possible if not in secure mode.",
+      "impact": "Tag data interception, reader misconfiguration, denial of service"
+    },
+    "iot_connector_leakage": {
+      "description": "CLAS Location Analytics streams real-time tag locations via KAFKA. IoT Connector pushes to cloud MQTT endpoints.",
+      "impact": "Real-time personnel/asset tracking data exfiltration if endpoint compromised"
+    },
+    "web_console_weaknesses": {
+      "description": "Apache 2.4.63 + Node.js pages. Self-signed cert warnings are documented as 'false alarms' in release notes, conditioning admins to ignore TLS errors.",
+      "impact": "Credential theft, admin session hijacking, firmware manipulation"
+    },
+    "poe_attack_surface": {
+      "description": "PoE+ 802.3at means power and data share the same Ethernet cable. No physical network isolation.",
+      "impact": "Switch compromise = reader compromise. VLAN hopping possible."
+    }
+  },
+  "deployment_context": {
+    "confirmed_sectors": [
+      "Warehousing & logistics",
+      "Manufacturing plants",
+      "Military & Department of Defense (confirmed on zebra.com product page)",
+      "Airport baggage handling (inferred from RTLS use cases)",
+      "Correctional facilities (inferred from 'worker tracking' and 'loss prevention' language)"
+    ],
+    "covert_applications": [
+      "Overhead personnel tracking via passive UHF tags in badges/footwear",
+      "Direction-of-movement analysis for corridor/doorway transit detection",
+      "Real-time location streaming to external analytics (KAFKA)",
+      "Asset tracking in sensitive facilities without battery maintenance (passive tags <$0.08)"
+    ]
+  },
+  "revenue_vectors_zero_clearance": [
+    {
+      "name": "ATR7000 Security Audit Service",
+      "mechanism": "Use the recon tool to scan client ATR7000 deployments. Report CVE-2024-6387 exposure, LLRP misconfigurations, and IoT Connector leakage.",
+      "entry": "Target warehouses, manufacturing, and government contractors with ATR7000 installations.",
+      "revenue": "$2,500\u2013$15,000 per engagement"
+    },
+    {
+      "name": "RFID RTLS Integration Consulting",
+      "mechanism": "Repurpose ATR7000 for non-logistics: senior care wander detection, construction hard-hat compliance, museum security.",
+      "entry": "Zebra 123RFID deployment software + CLAS license + configuration service.",
+      "revenue": "Hardware markup (30-40%) + ongoing maintenance"
+    },
+    {
+      "name": "Firmware Vulnerability Intelligence Feed",
+      "mechanism": "Monitor Zebra firmware release notes (like the 3.30.18 notes we found) for security implications. Sell early-warning briefings to industrial cybersecurity firms.",
+      "entry": "Subscribe to Zebra support RSS, diff release notes, analyze CVE mappings.",
+      "revenue": "Subscription model, $500\u2013$2,000/month per client"
+    }
+  ]
+}
