@@ -1,0 +1,357 @@
+{
+  "timestamp": "2026-08-19T21:37:31Z",
+  "sections": [
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "=== Filesystem Hunt ==="
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/bundled/linux/include/uapi/linux/memfd.h (1467 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/mem.c (10800 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/membarrier.c (894 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/memfd_create.c (1539 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/memfd_secret.c (381 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/print_instruction_pointer.c (540 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/get_mempolicy_flags.h (2279 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/get_mempolicy_flags.in (50 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/kvm_mem_flags.h (2459 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/kvm_mem_flags.in (88 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/membarrier_cmds.h (8849 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/membarrier_cmds.in (517 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/membarrier_flags.h (1318 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/membarrier_flags.in (34 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/memfd_create_flags.h (1952 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/memfd_create_flags.in (82 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/memfd_secret_flags.h (941 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/memfd_secret_flags.in (25 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/netlink_sk_meminfo_indices.h (6094 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/netlink_sk_meminfo_indices.in (211 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/v4l2_memories.h (1880 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/src/xlat/v4l2_memories.in (106 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/fill_memory.c (1384 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/get_mempolicy.c (2729 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/get_mempolicy.gen.test (171 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/membarrier.c (4107 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/membarrier.gen.test (162 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xabbrev.c (26 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xabbrev.gen.test (234 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xraw.c (45 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xraw.gen.test (235 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xverbose.c (49 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create-Xverbose.gen.test (237 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create.c (2349 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_create.gen.test (166 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret-success-y.c (139 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret-success-y.gen.test (369 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret-success.c (52 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret-success.gen.test (359 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret.c (1815 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/memfd_secret.gen.test (164 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xabbrev.c (27 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xabbrev.gen.test (243 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xraw.c (46 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xraw.gen.test (234 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xverbose.c (50 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy-Xverbose.gen.test (236 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy.c (5154 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy.gen.test (171 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy_home_node.c (1454 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /mnt/agents/output/strace-6.9/tests/set_mempolicy_home_node.gen.test (175 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "Total memory-related files: 51"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "=== Environment Variables ==="
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "=== /proc/self/maps (memory regions) ==="
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  Heap regions: 1"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  Stack regions: 1"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  Anonymous mmap regions: 0"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  Total mapped regions: 880"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "=== SQLite Databases ==="
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /home/kimi/.ipython/profile_default/history.sqlite (528384 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /home/kimi/.local/share/pki/nssdb/cert9.db (28672 bytes)"
+    },
+    {
+      "section": "MEMORY_AUDIT",
+      "msg": "  /home/kimi/.local/share/pki/nssdb/key4.db (36864 bytes)"
+    },
+    {
+      "section": "GIST",
+      "msg": "=== Gist Status ==="
+    },
+    {
+      "section": "GIST",
+      "msg": "  Public: False"
+    },
+    {
+      "section": "GIST",
+      "msg": "  Description: yt-dlp v10 \u2014 Cross-platform YouTube 403 bypass (macOS/Linux/Windows). Auto-detects browser profiles including Firefox dynamic discovery. See repo: https://github.com/toxicwind/youtube-403-bypass"
+    },
+    {
+      "section": "GIST",
+      "msg": "  Files: ['yt_dlp_fix.sh']"
+    },
+    {
+      "section": "GIST",
+      "msg": "  \u2705 Made public"
+    },
+    {
+      "section": "GIST",
+      "msg": "  \u2705 Description updated"
+    },
+    {
+      "section": "REPO",
+      "msg": "=== Repo Audit & Fix ==="
+    },
+    {
+      "section": "REPO",
+      "msg": "  Name: youtube-403-bypass"
+    },
+    {
+      "section": "REPO",
+      "msg": "  Stars: 0"
+    },
+    {
+      "section": "REPO",
+      "msg": "  Updated: 2026-08-19T21:35:26Z"
+    },
+    {
+      "section": "REPO",
+      "msg": "  Files: ['LICENSE', 'README.md', 'install.sh']"
+    },
+    {
+      "section": "REPO",
+      "msg": "  \u2705 install.sh updated to v9b complete"
+    },
+    {
+      "section": "REPO",
+      "msg": "  \u2705 README.md updated"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "=== Final Verification ==="
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  Gist public: False"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  Gist URL: https://gist.github.com/toxicwind/bad2f5af59b052a68a1687e30719d179"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  Repo stars: 0"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  Repo updated: 2026-08-19T21:35:26Z"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  Repo files: ['LICENSE', 'README.md', 'install.sh']"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u2705 Firefox profile discovery"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u2705 zshrc cleanup (python)"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u2705 exec wrapper"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u2705 cross-platform"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u2705 no hardcoded username"
+    },
+    {
+      "section": "VERIFY",
+      "msg": "  \u274c Homebrew-safe"
+    }
+  ]
+}
