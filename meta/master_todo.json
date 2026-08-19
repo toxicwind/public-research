@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created": "2026-08-20T00:25:00Z",
+    "last_updated": "2026-08-19T16:27:11.681661Z",
+    "autolive": true,
+    "description": "Mass mutative autolive todo system. Tasks auto-promote/demote based on priority and status."
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "status": "in_progress",
+      "priority": 10,
+      "category": "security",
+      "task": "Fix yt-dlp script v7 \u2014 ensure wrapper script intercepts binary, test on macOS",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-19"
+    },
+    {
+      "id": 2,
+      "status": "in_progress",
+      "priority": 9,
+      "category": "audit",
+      "task": "Deep environment audit \u2014 drive9, vdb/vdc, FUSE portal slowness root cause",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 3,
+      "status": "in_progress",
+      "priority": 9,
+      "category": "tools",
+      "task": "Install shellcheck static binary (all previous attempts failed)",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 4,
+      "status": "completed",
+      "priority": 0,
+      "category": "forensics",
+      "task": "ATR7000 PDF binary forensics \u2014 clean, no malware, 134KB, 4 pages",
+      "deps": [],
+      "created": "2026-08-18",
+      "completed": "2026-08-18"
+    },
+    {
+      "id": 5,
+      "status": "completed",
+      "priority": 0,
+      "category": "osint",
+      "task": "ATR7000 Target store surveillance grid analysis \u2014 Reddit eyewitness + patent cross-reference",
+      "deps": [
+        4
+      ],
+      "created": "2026-08-18",
+      "completed": "2026-08-18"
+    },
+    {
+      "id": 6,
+      "status": "completed",
+      "priority": 0,
+      "category": "code",
+      "task": "Build atr7000_recon.py network scanner + threat analyzer",
+      "deps": [
+        4
+      ],
+      "created": "2026-08-18",
+      "completed": "2026-08-18"
+    },
+    {
+      "id": 7,
+      "status": "completed",
+      "priority": 0,
+      "category": "code",
+      "task": "Build cdp_master.py + cdp_master_v2.py CDP automation controllers",
+      "deps": [],
+      "created": "2026-08-18",
+      "completed": "2026-08-19"
+    },
+    {
+      "id": 8,
+      "status": "completed",
+      "priority": 0,
+      "category": "recon",
+      "task": "CDP 9222/9223 full protocol extraction + target enumeration",
+      "deps": [],
+      "created": "2026-08-19",
+      "completed": "2026-08-19"
+    },
+    {
+      "id": 9,
+      "status": "completed",
+      "priority": 0,
+      "category": "recon",
+      "task": "Port fuzzing \u2014 all listening ports (22, 6080, 8888, 9222, 9223, 10250) + unknown ephemeral",
+      "deps": [],
+      "created": "2026-08-19",
+      "completed": "2026-08-19"
+    },
+    {
+      "id": 10,
+      "status": "completed",
+      "priority": 0,
+      "category": "tools",
+      "task": "Install rg (ripgrep) to /mnt/.bin (ext4, not FUSE)",
+      "deps": [],
+      "created": "2026-08-19",
+      "completed": "2026-08-19"
+    },
+    {
+      "id": 11,
+      "status": "completed",
+      "priority": 0,
+      "category": "tools",
+      "task": "Install curl_cffi + websocket-client + bs4 for Cloudflare bypass",
+      "deps": [],
+      "created": "2026-08-19",
+      "completed": "2026-08-19"
+    },
+    {
+      "id": 12,
+      "status": "completed",
+      "priority": 0,
+      "category": "tools",
+      "task": "Install flake8 + black + pylint + ruff python lint suite",
+      "deps": [],
+      "created": "2026-08-20",
+      "completed": "2026-08-20"
+    },
+    {
+      "id": 13,
+      "status": "pending",
+      "priority": 9,
+      "category": "security",
+      "task": "Investigate Chrome extension gpkoddcemgbmajecfkkolkgfcchmfpge \u2014 background service worker purpose",
+      "deps": [
+        8
+      ],
+      "created": "2026-08-19",
+      "due": "2026-08-20",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 14,
+      "status": "pending",
+      "priority": 9,
+      "category": "security",
+      "task": "CVE-2024-6387 scan \u2014 check if any ATR7000/FX9600 in reachable network has pre-3.30.18 firmware",
+      "deps": [
+        6
+      ],
+      "created": "2026-08-18",
+      "due": "2026-08-21",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 15,
+      "status": "pending",
+      "priority": 7,
+      "category": "osint",
+      "task": "Anna's Archive scrape for ATR7000 / WhereNet / Zebra military contracts",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-21"
+    },
+    {
+      "id": 16,
+      "status": "pending",
+      "priority": 7,
+      "category": "osint",
+      "task": "Uber scraper August 2026 \u2014 find H3 geospatial scraping repos, map to OSINT infrastructure",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-21"
+    },
+    {
+      "id": 17,
+      "status": "pending",
+      "priority": 8,
+      "category": "code",
+      "task": "Build mutative CDP 9223 OSINT pipeline \u2014 automated page harvest + screenshot + DOM extraction",
+      "deps": [
+        7
+      ],
+      "created": "2026-08-19",
+      "due": "2026-08-20",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 18,
+      "status": "pending",
+      "priority": 6,
+      "category": "audit",
+      "task": "history.sqlite deep analysis \u2014 104KB, session count, query patterns, slowness root cause",
+      "deps": [],
+      "created": "2026-08-20",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 19,
+      "status": "pending",
+      "priority": 6,
+      "category": "audit",
+      "task": "vdb (13GB) + vdc (1GB) block device audit \u2014 why inaccessible, mount possibilities",
+      "deps": [
+        2
+      ],
+      "created": "2026-08-20",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 20,
+      "status": "pending",
+      "priority": 6,
+      "category": "audit",
+      "task": "FUSE portal mount audit \u2014 /mnt/agents breaks chmod +x, causes slowness, workaround strategies",
+      "deps": [
+        2
+      ],
+      "created": "2026-08-20",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 21,
+      "status": "pending",
+      "priority": 6,
+      "category": "code",
+      "task": "Lint all Python scripts (flake8 clean) \u2014 atr7000_recon.py, cdp_master.py, cdp_master_v2.py",
+      "deps": [
+        12
+      ],
+      "created": "2026-08-20",
+      "due": "2026-08-20",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 22,
+      "status": "pending",
+      "priority": 5,
+      "category": "code",
+      "task": "Shellcheck all bash scripts \u2014 yt_dlp_fix.sh variants, bootstrap scripts",
+      "deps": [
+        3
+      ],
+      "created": "2026-08-20",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 23,
+      "status": "pending",
+      "priority": 5,
+      "category": "infra",
+      "task": "Morphe hooks autoload system \u2014 /mnt/agents/output/morphe/hooks/load.sh with _dot_ persistence",
+      "deps": [],
+      "created": "2026-08-18",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 24,
+      "status": "pending",
+      "priority": 5,
+      "category": "security",
+      "task": "Kubelet 10250 auth bypass attempt \u2014 service account token extraction, pod enumeration",
+      "deps": [
+        9
+      ],
+      "created": "2026-08-19",
+      "due": "2026-08-21",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 25,
+      "status": "pending",
+      "priority": 5,
+      "category": "security",
+      "task": "SSH 22 audit \u2014 key-based auth only, brute-force resistance, host key fingerprints",
+      "deps": [
+        9
+      ],
+      "created": "2026-08-19",
+      "due": "2026-08-21",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 26,
+      "status": "pending",
+      "priority": 4,
+      "category": "osint",
+      "task": "GitHub API intelligence harvest \u2014 Uber scrapers, CDP automation, curl_cffi bypass tools",
+      "deps": [],
+      "created": "2026-08-19",
+      "due": "2026-08-21"
+    },
+    {
+      "id": 27,
+      "status": "pending",
+      "priority": 4,
+      "category": "code",
+      "task": "Build /proc-based strace fallback \u2014 ProcTracer class in cdp_master_v2.py",
+      "deps": [
+        7
+      ],
+      "created": "2026-08-19",
+      "completed": "2026-08-19",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 28,
+      "status": "pending",
+      "priority": 3,
+      "category": "code",
+      "task": "Auto-todo management system \u2014 this file self-updates, archives completed, promotes blocked",
+      "deps": [],
+      "created": "2026-08-20",
+      "due": "2026-08-20"
+    },
+    {
+      "id": 29,
+      "status": "pending",
+      "priority": 3,
+      "category": "research",
+      "task": "Zebra ATR7000 heritage deep-dive \u2014 Symbol Technologies \u2192 Motorola \u2192 WhereNet \u2192 Zebra convergence",
+      "deps": [
+        4
+      ],
+      "created": "2026-08-18",
+      "due": "2026-08-22",
+      "notes": "Auto-promoted: all dependencies completed"
+    },
+    {
+      "id": 30,
+      "status": "pending",
+      "priority": 3,
+      "category": "research",
+      "task": "Target Brands AI surveillance patent cluster \u2014 dynamic watch-lists, federated learning, multi-agent LLM",
+      "deps": [
+        5
+      ],
+      "created": "2026-08-18",
+      "due": "2026-08-22",
+      "notes": "Auto-promoted: all dependencies completed"
+    }
+  ],
+  "stats": {
+    "total": 30,
+    "completed": 9,
+    "in_progress": 3,
+    "pending": 18,
+    "blocked": 0
+  }
+}
