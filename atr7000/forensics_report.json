@@ -1,0 +1,304 @@
+{
+  "file_size": 134932,
+  "sha256": "8481224e8b2324a9d2279603c97de11ca334f438382180422e55767e51e8bfa8",
+  "sha1": "5d4746a7b4952d16282c0a7610453d66d8b7e453",
+  "md5": "81f63216fde7fd16667b63d909e0e81a",
+  "total_streams": 36,
+  "streams": [
+    {
+      "idx": 0,
+      "approx_length": 1193,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 86
+    },
+    {
+      "idx": 1,
+      "approx_length": 655,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 1370
+    },
+    {
+      "idx": 2,
+      "approx_length": 394,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 2117
+    },
+    {
+      "idx": 3,
+      "approx_length": 62,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 2600
+    },
+    {
+      "idx": 4,
+      "approx_length": 860,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 2753
+    },
+    {
+      "idx": 5,
+      "approx_length": 887,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 3703
+    },
+    {
+      "idx": 6,
+      "approx_length": 359,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 4681
+    },
+    {
+      "idx": 7,
+      "approx_length": 6356,
+      "type": "ObjStm",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 5106
+    },
+    {
+      "idx": 8,
+      "approx_length": 7212,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 11528
+    },
+    {
+      "idx": 9,
+      "approx_length": 2906,
+      "type": "unknown",
+      "subtype": "Type1C",
+      "filter": "FlateDecode",
+      "offset": 18821
+    },
+    {
+      "idx": 10,
+      "approx_length": 446,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 21792
+    },
+    {
+      "idx": 11,
+      "approx_length": 4572,
+      "type": "unknown",
+      "subtype": "Type1C",
+      "filter": "FlateDecode",
+      "offset": 22319
+    },
+    {
+      "idx": 12,
+      "approx_length": 560,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 26956
+    },
+    {
+      "idx": 13,
+      "approx_length": 2474,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 27583
+    },
+    {
+      "idx": 14,
+      "approx_length": 35714,
+      "type": "Metadata",
+      "subtype": "XML",
+      "filter": "none",
+      "offset": 30132
+    },
+    {
+      "idx": 15,
+      "approx_length": 466,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 65912
+    },
+    {
+      "idx": 16,
+      "approx_length": 3167,
+      "type": "unknown",
+      "subtype": "Type1C",
+      "filter": "FlateDecode",
+      "offset": 66460
+    },
+    {
+      "idx": 17,
+      "approx_length": 14212,
+      "type": "Metadata",
+      "subtype": "XML",
+      "filter": "none",
+      "offset": 69717
+    },
+    {
+      "idx": 18,
+      "approx_length": 518,
+      "type": "Catalog",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 84106
+    },
+    {
+      "idx": 19,
+      "approx_length": 572,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 84690
+    },
+    {
+      "idx": 20,
+      "approx_length": 854,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 85328
+    },
+    {
+      "idx": 21,
+      "approx_length": 808,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 86248
+    },
+    {
+      "idx": 22,
+      "approx_length": 831,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 87122
+    },
+    {
+      "idx": 23,
+      "approx_length": 895,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 88019
+    },
+    {
+      "idx": 24,
+      "approx_length": 781,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 88980
+    },
+    {
+      "idx": 25,
+      "approx_length": 776,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 89827
+    },
+    {
+      "idx": 26,
+      "approx_length": 859,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 90669
+    },
+    {
+      "idx": 27,
+      "approx_length": 623,
+      "type": "unknown",
+      "subtype": "none",
+      "filter": "FlateDecode",
+      "offset": 91594
+    },
+    {
+      "idx": 28,
+      "approx_length": 3643,
+      "type": "unknown",
+      "subtype": "Type1C",
+      "filter": "FlateDecode",
+      "offset": 92299
+    },
+    {
+      "idx": 29,
+      "approx_length": 4385,
+      "type": "unknown",
+      "subtype": "Type1C",
+      "filter": "FlateDecode",
+      "offset": 96024
+    },
+    {
+      "idx": 30,
+      "approx_length": 10416,
+      "type": "Metadata",
+      "subtype": "XML",
+      "filter": "none",
+      "offset": 100484
+    },
+    {
+      "idx": 31,
+      "approx_length": 2144,
+      "type": "unknown",
+      "subtype": "Form",
+      "filter": "FlateDecode",
+      "offset": 111103
+    },
+    {
+      "idx": 32,
+      "approx_length": 1878,
+      "type": "Metadata",
+      "subtype": "XML",
+      "filter": "none",
+      "offset": 113321
+    },
+    {
+      "idx": 33,
+      "approx_length": 8273,
+      "type": "XObject",
+      "subtype": "Image",
+      "filter": "FlateDecode",
+      "offset": 115464
+    },
+    {
+      "idx": 34,
+      "approx_length": 10192,
+      "type": "XObject",
+      "subtype": "Image",
+      "filter": "JPXDecode",
+      "offset": 123940
+    },
+    {
+      "idx": 35,
+      "approx_length": 277,
+      "type": "XRef",
+      "subtype": "none",
+      "filter": "Standard",
+      "offset": 134609
+    }
+  ],
+  "actions": [],
+  "xref_tables": 1,
+  "trailers": 0,
+  "xref_offsets": [
+    134914
+  ],
+  "trailer_offsets": []
+}
