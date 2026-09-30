@@ -1,3 +1,6 @@
+> **toxicwind mirror** of Nokia Deepfield ERT public research, with toxicwind additions appended at the end. The upstream body below is preserved verbatim — attribution, IoC sourcing, and feedback contacts belong to the Nokia Deepfield ERT team.
+
+---
 # Nokia Deepfield ERT — public research
 
 Threat research from the Nokia Deepfield Emergency Response Team (ERT), focused on DDoS botnets and related infrastructure. Each directory covers a botnet family with a brief summary and machine-readable indicators of compromise (IoCs).
@@ -45,3 +48,17 @@ Standalone analyses that don't map to a single botnet family.
 ## Feedback
 
 We welcome corrections, additional IoCs, and other feedback. Reach out to us on Mastodon at [@deepfield@infosec.exchange](https://infosec.exchange/@deepfield/).
+## toxicwind additions
+
+Directories and files added by toxicwind on top of the upstream research mirror (not part of the upstream ERT set):
+
+| Directory | Contents |
+|-----------|----------|
+| [atr7000](atr7000/) | ATR7000 dossier + forensics JSONs (`atr7000_dossier.json`, `forensics_report.json`) |
+| [popa](popa/) | IoCs (`iocs/`) |
+| [tools](tools/) | recon tooling (`atr7000_recon.py`, `cdp_master.py`, `cdp_master_v2.py`) |
+| [meta](meta/) | workspace state (`master_todo.json`) |
+| [audit](audit/) | `monolith_audit_report.json` (added 2026-08-19) |
+| [images](images/) | shared image assets |
+
+> **Handling note:** indicators are raw (not defanged) so they feed detection tooling directly. Exercise caution with URLs and domains, as the upstream note above warns.
